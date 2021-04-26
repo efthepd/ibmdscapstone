@@ -1,4 +1,8 @@
 Data used:
-1. Foursquare location data.
-2. Botanical Gardens and Arboretum located here: https://en.wikipedia.org/wiki/List_of_botanical_gardens_and_arboretums_in_the_United_States
-and scraped from individual pages.
+
+1. Foursquare location data. API used to retrieve retail locations and types from the area around existing gardens, arboretums and similar venues
+within the Northeast United states — consisting of New England, in addition to New York and Pennsylvania. 
+
+2. A state-by-state directory of botanical Gardens and Arboretum is located here: https://en.wikipedia.org/wiki/List_of_botanical_gardens_and_arboretums_in_the_United_States
+and data is scraped from individual pages. Exact location is gathered using the Nominatim if possible, but if this can't be found coordinates for the city in which the
+venue is used instead.
